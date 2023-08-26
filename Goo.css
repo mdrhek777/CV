@@ -1,0 +1,119 @@
+*{margin:0;
+    padding:0;}
+
+body{font-family: 'Poppins', sans-serif;
+    background-color:#EEE;}
+
+.container{
+    max-width: 1000;
+    background-color: #e4F9F5;
+    margin:0 auto;
+    padding:20px;}
+
+header{}
+
+.profile-image{
+        width:100px;
+        height:120px;
+        border:3px solid #11999e;
+        border-radius:50%;
+        float:left;
+        }
+
+.header-bio{
+            float:left;
+            padding:30px;
+            
+            }
+        
+h1,h2,h3,h4,h5,h6{
+                    color:#11999e;
+                    
+}
+.header-contant{
+                float:right;
+                padding:30px;
+                
+                }
+.header-contant a{
+                text-decoration: none;
+                color:teal; 
+                text-weight:bold;
+            } 
+
+.header-contant a:hover{text-decoration: underline;
+                        color:tomato}
+
+.div-clear{clear:both;}
+
+hr{border:2px solid black;
+    width:100%;
+    margin:20px auto;
+    border-bottom:none;}
+
+/*---------------------
+personal section start
+-----------------------*/
+
+#personal-section{}
+
+.content{
+    margin-bottom:30px;
+}
+
+.left-div{
+          width:30%;
+          float:left;
+
+
+}
+
+.right-div{ 
+            width:70%;
+            float:left;
+}
+
+.common-hr{
+    border:1px solid black;
+    border-bottom:none;
+    width:100%;
+    margin:20px auto;
+}
+
+/*---------------------
+Education section start
+-----------------------*/
+
+.edu-template-left{ float:left;
+                    width:45%;}
+
+.edu-template-right{float:right;
+                    width:45%;}
+
+/*---------------------
+Education section End
+-----------------------*/
+
+/*---------------------
+Footer section start
+-----------------------*/
+.footer-center{
+                background-color: black;
+                padding:10px;
+                text-align:center;
+}
+
+.footer-center a{
+                text-decoration: none;
+                color: #EEE;
+                margin: 20px;
+
+}
+
+.footer-center p{
+                
+                color:greenyellow;
+                margin-top: 20px;
+
+                
+}
